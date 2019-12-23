@@ -18,11 +18,11 @@ substitutions:
   mqtt_device_name: ChilerenRoom
   ### 这里之所以会取2个设备名称独立开来，是为了便于通过MQTT接入服务端（如ioBroker）后的设备分类和集中
   #WiFi_SSID名称
-  wifi_ssid: '777'
+  wifi_ssid: 'jackpeng'
   #WiFi密码
-  wifi_password: '1122334455'
+  wifi_password: '85669961'
   #如果SSID是隐藏的，设置为true
-  wifi_fast_connect: 'false'
+  wifi_fast_connect: 'true'
   #WiFi离线多久后重启设备，秒s/分钟min/小时h，不需要此功能设置为0s，建议设置0s，防止异常重启，或者设置的大一些
   wifi_reboot_timeout: 0s
   #OTA密码
