@@ -16,11 +16,11 @@ substitutions:
   #设备名称(多个dc1改成不一样的)
   device_name: phicomm_dc1
   #WiFi_SSID名称
-  wifi_ssid: 'jackpeng'
+  wifi_ssid: $device_name
   #WiFi密码
-  wifi_password: '85669961'
+  wifi_password: '12345678'
   #如果SSID是隐藏的，设置为true
-  wifi_fast_connect: 'true'
+  wifi_fast_connect: 'false'
   #WiFi离线多久后重启设备，秒s/分钟min/小时h，不需要此功能设置为0s
   wifi_reboot_timeout: 600s
   #OTA密码
